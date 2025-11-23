@@ -17,3 +17,38 @@
   </body>
 </html>
 <link rel="stylesheet" href="styles.css" />
+
+<script>
+  const startButton = document.getElementById("start-button");
+  const resultMessage = document.getElementById("result-message");
+  const statsDisplay = document.getElementById("statistics");
+  const resetButton = document.getElementById("reset-button");
+
+  async function fetchGameState() {
+    //alert("fetchGameState called");
+    gs = 1234;
+
+    updateFrontend(gs);
+  }
+
+  function updateFrontend(gs) {
+    resultMessage.innerText = `Game State: ${gs}`;
+    statsDisplay.innerText = `Statistics: ${gs}`; // Update with actual stats
+  }
+
+  async function spinWheel() {
+    //alert("spinWheel called");
+    // Simulate a game state change
+    gs = Math.floor(Math.random() * 100);
+    updateFrontend(gs);
+  }
+  startButton.addEventListener("click", spinWheel);
+  resetButton.addEventListener("click", () => {
+    //alert("resetButton clicked");
+    // Reset statistics logic here
+    gs = 0;
+    updateFrontend(gs);
+  });
+
+  fetchGameState();
+</script>
