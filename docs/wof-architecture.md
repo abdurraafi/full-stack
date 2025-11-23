@@ -10,14 +10,14 @@ Template Version 9.0-EN. (based upon AsciiDoc version), July 2025
 Created, maintained and © by Dr. Peter Hruschka, Dr. Gernot Starke and
 contributors. See <https://arc42.org>.
 
-# Introduction and Goals {#section-introduction-and-goals}
+# 1. Introduction and Goals {#section-introduction-and-goals}
 
 ## Requirements Overview {#\_requirements_overview}
 
 ## Quality Goals {#\_quality_goals}
 
 ## Stakeholders {#\_stakeholders}
-```table
+```
 +--------------+---------------------------+---------------------------+
 | Role/Name | Contact | Expectations |
 +==============+===========================+===========================+
@@ -26,9 +26,9 @@ contributors. See <https://arc42.org>.
 | _\<Role-2\>_ | _\<Contact-2\>_ | _\<Expectation-2\>_ |
 +--------------+---------------------------+---------------------------+
 ```
-# Architecture Constraints {#section-architecture-constraints}
+# 2. Architecture Constraints {#section-architecture-constraints}
 
-# Context and Scope {#section-context-and-scope}
+# 3. Context and Scope {#section-context-and-scope}
 
 ## Business Context {#\_business_context}
 
